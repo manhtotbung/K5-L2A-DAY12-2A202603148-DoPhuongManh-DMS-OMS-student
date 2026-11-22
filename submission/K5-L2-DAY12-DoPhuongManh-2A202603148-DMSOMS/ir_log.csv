@@ -1,0 +1,9 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S03_ir,IR_sim,"Cảnh đêm: S03_rgb gần như đen, IR-sim vẫn thấy rõ ghế trẻ em, nôi xách và một cốc tối màu trên ghế giữa",object; child_seat.occupied,"Cốc chỉ gán trên S03_ir (object type=cup); không gán trên S03_rgb vì không thấy, không suy từ ảnh IR"
+S08_rgb,IR_sim,"Cảnh đêm: trên RGB áo tối hòa vào nền, không thấy dây an toàn và mí mắt; S08_ir thấy rõ không có dây và mắt mở",person.seatbelt; face.eye_left; face.eye_right,"S08_rgb ghi seatbelt=unknown, mắt unknown; S08_ir ghi not_worn, open. Mỗi ảnh gán theo cái thấy được trên chính nó"
+S06_ir,IR_sim,"Mất màu: hộp các-tông nâu trên RGB thành khối trắng xám trên IR-sim",object.type,"Vẫn gán type=box nhờ hình dạng (khối hộp có nắp), không dựa vào màu (quy tắc 4.4-4)"
+S07_ir,IR_sim,"Mất màu: ghế nâng xanh và túi tím trên RGB chỉ còn khác nhau về họa tiết sáng/tối trên IR-sim",child_seat vs object,"Phân biệt bằng hình dạng: ghế có tựa đầu và tai ghế = child_seat; khối mềm có quai = object bag"
+D05,real_IR,"Tròng kính phản xạ đèn NIR thành mảng sáng/tối, không thấy khe mắt sau tròng",face.eye_left; face.eye_right; face13 điểm mắt,"Hai mắt ghi unknown; 8 điểm mắt đánh cờ occluded, không ghi open/closed"
+D02,real_IR,"Đèn NIR chiếu gần: chóp mũi và ống tay áo sáng bão hòa, vùng miệng ở xa tối hẳn",face13 (mouth_*/lip_*); face.eye_right,"Điểm miệng đánh outside vì không đặt được vị trí; mắt phải bị tay áo che nên unknown + occluded"
+D06,real_IR,"Kính trên NIR trông trong suốt, không phân biệt được kính cận với kính râm chỉ bằng độ tối của tròng",face.glasses,"Ghi clear vì thấy được vùng da/viền mắt sau tròng; ca này cần coach xác nhận (GUIDE 4.5: kính râm có thể trông trong trên NIR)"
+D01,real_IR,"Đầu trọc và áo sơ mi trắng phản xạ mạnh, mặt quay đi nên chỉ còn đường viền nghiêng (profile)",face.eye_*; face13,"Chỉ chóp mũi visible; mắt trái/miệng occluded, mắt phải outside; eye_left/right=unknown"

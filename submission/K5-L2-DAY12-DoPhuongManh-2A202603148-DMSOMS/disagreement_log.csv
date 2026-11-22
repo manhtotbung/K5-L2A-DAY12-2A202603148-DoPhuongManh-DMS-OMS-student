@@ -1,0 +1,95 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Giữ unknown: không có bằng chứng ngày/đêm trên ảnh NIR (đèn IR làm sáng như nhau)
+D01.png,face13,mouth_left.occluded,khác cờ,1,0,peer,4.6,"Mặt quay đi, không đoán chắc vị trí miệng -> outside"
+D01.png,face13,mouth_left.outside,khác cờ,0,1,peer,4.6,"Mặt quay đi, không đoán chắc vị trí miệng -> outside"
+D01.png,face13,lip_upper.occluded,khác cờ,1,0,peer,4.6,"Mặt quay đi, không đoán chắc vị trí miệng -> outside"
+D01.png,face13,lip_upper.outside,khác cờ,0,1,peer,4.6,"Mặt quay đi, không đoán chắc vị trí miệng -> outside"
+D01.png,face13,lip_lower.occluded,khác cờ,1,0,peer,4.6,"Mặt quay đi, không đoán chắc vị trí miệng -> outside"
+D01.png,face13,lip_lower.outside,khác cờ,0,1,peer,4.6,"Mặt quay đi, không đoán chắc vị trí miệng -> outside"
+D02.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Giữ unknown: không có bằng chứng ngày/đêm trên ảnh NIR (đèn IR làm sáng như nhau)
+D02.png,face,gaze_zone,khác giá trị (IoU=0.79),other,road,mine,4.5 gaze_zone,"Không thấy mắt rõ -> other (không chắc), không ghi road"
+D02.png,hand,side,khác giá trị (IoU=0.60),left,right,peer,4.4-2; 4.7,Tay này nối với cánh tay phải giơ qua đầu -> side=right
+D02.png,face13,mouth_left.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D02.png,face13,mouth_left.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D02.png,face13,mouth_right.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D02.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D02.png,face13,lip_upper.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D02.png,face13,lip_upper.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D02.png,face13,lip_lower.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D02.png,face13,lip_lower.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D03.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Giữ unknown: không có bằng chứng ngày/đêm trên ảnh NIR (đèn IR làm sáng như nhau)
+D03.png,person,seatbelt,khác giá trị (IoU=0.74),unknown,worn_incorrect,mine,4.7 seatbelt,"Áo khoác tối che dải chéo, không thấy dây sai cách -> unknown, không ghi worn_incorrect"
+D03.png,face,gaze_zone,khác giá trị (IoU=0.75),other,road,mine,4.5 gaze_zone,"Không thấy mắt rõ -> other (không chắc), không ghi road"
+D03.png,face,glasses,khác giá trị (IoU=0.75),unknown,none,mine,4.5 glasses,"Vùng mắt tối, không chắc có gọng; guideline: không chắc thì unknown, không chọn none"
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,both_wrong,4.1 hand; 4.4-1,"Phóng to: chỗ của mình là cổ tay áo, chỗ của bạn là vùng tối, đều không thấy bàn tay phải -> bỏ box"
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,both_wrong,4.1 hand; 4.4-1,"Phóng to: chỗ của mình là cổ tay áo, chỗ của bạn là vùng tối, đều không thấy bàn tay phải -> bỏ box"
+D03.png,face13,mouth_right.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Giữ unknown: không có bằng chứng ngày/đêm trên ảnh NIR (đèn IR làm sáng như nhau)
+D04.png,face,gaze_zone,khác giá trị (IoU=0.84),other,road,mine,4.5 gaze_zone,"Không thấy mắt rõ -> other (không chắc), không ghi road"
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.45,,peer,4.1 hand; 4.7,Box tay phải nới tới cổ tay; tay trái đặt trên đùi -> on_wheel=no
+D04.png,hand,on_wheel,khác giá trị (IoU=0.76),unknown,no,peer,4.1 hand; 4.7,Box tay phải nới tới cổ tay; tay trái đặt trên đùi -> on_wheel=no
+D04.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.7 phone,"Phóng to chỉ thấy ngón tay và một chấm sáng, không có cạnh/góc/màn hình điện thoại -> không vẽ phone"
+D04.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 hand; 4.7,Box tay phải nới tới cổ tay; tay trái đặt trên đùi -> on_wheel=no
+D04.png,face13,right_eye_inner.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,right_eye_upper.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,right_eye_lower.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,mouth_right.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D04.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D05.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Giữ unknown: không có bằng chứng ngày/đêm trên ảnh NIR (đèn IR làm sáng như nhau)
+D05.png,face,gaze_zone,khác giá trị (IoU=0.78),other,road,mine,4.5 gaze_zone,"Không thấy mắt rõ -> other (không chắc), không ghi road"
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.21,,peer,4.7 hand,"Tay phải đang nắm vành vô lăng -> sửa box, on_wheel=yes"
+D05.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.7 hand,"Tay phải đang nắm vành vô lăng -> sửa box, on_wheel=yes"
+D05.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D05.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D05.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D06.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Giữ unknown: không có bằng chứng ngày/đêm trên ảnh NIR (đèn IR làm sáng như nhau)
+D06.png,person,seatbelt,khác giá trị (IoU=0.71),unknown,worn_correct,peer,4.7 seatbelt,"Dây đã chéo vai xuống hông, tay chỉ cầm dây -> worn_correct"
+D06.png,face13,mouth_right.occluded,khác cờ,0,1,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+D06.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,"Giữ cờ của mình: occluded khi đoán chắc vị trí (bị tay/chai che), outside khi không đặt được"
+S01_ir.png,child_seat,occupied,khác giá trị (IoU=0.93),yes,unknown,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S01_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.93),yes,unknown,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S01_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S02_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.40,,peer,4.1 face (tai đến tai),Box face của mình quá hẹp; nới theo box của bạn
+S02_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 face (tai đến tai),Box face của mình quá hẹp; nới theo box của bạn
+S02_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.39,,peer,4.1 face (tai đến tai),Box face của mình quá hẹp; nới theo box của bạn
+S02_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 face (tai đến tai),Box face của mình quá hẹp; nới theo box của bạn
+S03_ir.png,child_seat,occupied,khác giá trị (IoU=0.93),yes,unknown,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S03_ir.png,infant_seat,facing,khác giá trị (IoU=0.64),front,rear,mine,4.1 infant_seat,"Đầu bé ở phía tựa ghế sau, chân về phía camera -> quay về trước xe (front)"
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.41,,mine,4.4-5; 4.1 object,Box cốc sát vật (box bạn gồm cả khóa dây an toàn); trẻ không phải object
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5; 4.1 object,Box cốc sát vật (box bạn gồm cả khóa dây an toàn); trẻ không phải object
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5; 4.1 object,Box cốc sát vật (box bạn gồm cả khóa dây an toàn); trẻ không phải object
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5; 4.1 object,Box cốc sát vật (box bạn gồm cả khóa dây an toàn); trẻ không phải object
+S03_rgb.png,child_seat,occupied,khác giá trị (IoU=0.87),yes,unknown,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S03_rgb.png,infant_seat,facing,khác giá trị (IoU=0.64),front,rear,mine,4.1 infant_seat,"Đầu bé ở phía tựa ghế sau, chân về phía camera -> quay về trước xe (front)"
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-1,"Cốc và trẻ: không gán cốc trên RGB vì không thấy, không suy từ ảnh IR; trẻ -> hỏi coach"
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-1,"Cốc và trẻ: không gán cốc trên RGB vì không thấy, không suy từ ảnh IR; trẻ -> hỏi coach"
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-1,"Cốc và trẻ: không gán cốc trên RGB vì không thấy, không suy từ ảnh IR; trẻ -> hỏi coach"
+S04_ir.png,face,eye_right,khác giá trị (IoU=0.55),unknown,open,peer,4.5,Thấy khe mắt phải mở -> open
+S04_ir.png,child_seat,occupied,khác giá trị (IoU=0.95),yes,unknown,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S04_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S04_rgb.png,face,eye_right,khác giá trị (IoU=0.55),unknown,open,peer,4.5,Thấy khe mắt phải mở -> open
+S04_rgb.png,child_seat,occupied,khác giá trị (IoU=0.95),yes,unknown,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S04_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S05_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.42,,peer,4.1 face (tai đến tai),Box face của mình quá hẹp; nới theo box của bạn
+S05_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 face (tai đến tai),Box face của mình quá hẹp; nới theo box của bạn
+S05_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S05_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.42,,peer,4.1 face (tai đến tai),Box face của mình quá hẹp; nới theo box của bạn
+S05_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S05_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 face (tai đến tai),Box face của mình quá hẹp; nới theo box của bạn
+S06_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.5,"Thêm box face (thấy chóp mũi + miệng), thuộc tính mắt/kính unknown"
+S06_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.5,"Thêm box face (thấy chóp mũi + miệng), thuộc tính mắt/kính unknown"
+S08_ir.png,child_seat,occupied,khác giá trị (IoU=0.95),yes,unknown,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S08_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S08_rgb.png,person,seatbelt,khác giá trị (IoU=0.96),unknown,not_worn,mine,4.4-1; 4.7,"Giữ unknown: áo tối trên RGB đêm, không thấy rõ có/không dây; không suy từ S08_ir"
+S08_rgb.png,face,eye_left,khác giá trị (IoU=0.58),unknown,open,peer,4.5,Mặt S08_rgb vẫn đủ sáng để thấy -> eye_left=open
+S08_rgb.png,face,eye_right,khác giá trị (IoU=0.58),unknown,open,peer,4.5,Mặt S08_rgb vẫn đủ sáng để thấy -> eye_right=open
+S08_rgb.png,face,glasses,khác giá trị (IoU=0.58),unknown,none,peer,4.5,Mặt S08_rgb vẫn đủ sáng để thấy -> glasses=none
+S08_rgb.png,child_seat,occupied,khác giá trị (IoU=0.95),yes,unknown,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes
+S08_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 object (đồ vật mang theo) + schema coach có occupied=yes,Trẻ không phải đồ vật nên không vẽ object; schema coach thêm occupied=yes chính là để ghi ghế có trẻ -> giữ occupied=yes

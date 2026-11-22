@@ -53,3 +53,10 @@ Cốt lõi là S01–S08 (16 ảnh) và D01–D06 (6 ảnh), tổng 22 ảnh. S0
 - **SVIRO** © DFKI/IEE, CC BY-NC-SA 4.0. Ảnh "grayscale" của SVIRO là IR **mô phỏng** (IR-sim), không phải ảnh hồng ngoại thật. Trong SVIRO không có ai thắt dây an toàn.
 - **Drive&Act**, Martin et al., ICCV 2019. Chỉ dùng cho học tập và nghiên cứu trong lớp. Ảnh NIR bị xoay khoảng 90° theo hướng lắp camera.
 - Ảnh chỉ nằm trên máy bạn và trong CVAT local. Không commit ảnh vào repo, không đưa lên dịch vụ ngoài, không gửi vào nhóm chat (xem [RULES.md](RULES.md)).
+
+## Bài nộp — Đỗ Phương Mạnh · 2A202603148 · G04
+
+- Link Google Drive: https://drive.google.com/file/d/1-22HpRKZwcYXn3PEhq6esGz_4gL84KJU/view?usp=drive_link
+- File: `K5-L2-DAY12-DoPhuongManh-2A202603148-DMSOMS.zip` (E1–E5, check, disagreement_log, self_review, exit_ticket, TEAM, prompts; không kèm ảnh)
+- Bộ ảnh: G04 · Review chéo với: Nguyễn Thị Minh Trang (2A202603107)
+- `cabin_check --expect 22`: 0 lỗi (`check_final.txt`, `check_final_v2.txt`)
